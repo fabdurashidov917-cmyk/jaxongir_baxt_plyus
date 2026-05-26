@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'zbek Qurilish Firmasi - Sifat va Ishonch</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background: #f5f5f5; color: #333; line-height: 1.6; }
+        header { background: #1a2a3a; color: white; padding: 20px 0; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 5px; }
+        header p { font-style: italic; color: #ccc; }
+        nav { background: #2c3e50; text-align: center; padding: 10px 0; position: sticky; top: 0; z-index: 1000; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; transition: color 0.3s; }
+        nav a:hover { color: #f39c12; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        .section { background: white; margin: 20px 0; padding: 25px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .section h2 { color: #1a2a3a; margin-bottom: 15px; border-bottom: 3px solid #f39c12; display: inline-block; padding-bottom: 5px; }
+        .hero { background: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); }
+        .hero h2 { font-size: 2.5rem; background: rgba(0,0,0,0.5); padding: 20px 30px; border-radius: 5px; }
+        .gallery { display: flex; flex-wrap: wrap; gap: 10px; }
+        .gallery img { width: calc(33.333% - 10px); height: 200px; object-fit: cover; border-radius: 5px; transition: transform 0.3s; }
+        .gallery img:hover { transform: scale(1.03); }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background: #1a2a3a; color: white; }
+        footer { background: #1a2a3a; color: white; text-align: center; padding: 15px 0; margin-top: 20px; }
+        @media (max-width: 768px) {
+            .gallery img { width: calc(50% - 5px); }
+            .hero h2 { font-size: 1.8rem; }
+        }
+        @media (max-width: 480px) {
+            .gallery img { width: 100%; }
+            nav a { display: block; margin: 5px 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>O'zbek Qurilish</h1>
+        <p>Ishonch, sifat, tezkor xizmat – 15 yillik tajriba</p>
+    </header>
+    <nav>
+        <a href="#home">Bosh sahifa</a>
+        <a href="#about">Biz haqimizda</a>
+        <a href="#contracts">Kontraktlar</a>
+        <a href="#gallery">Galereya</a>
+        <a href="#contact">Aloqa</a>
+    </nav>
+
+    <div class="hero" id="home">
+        <h2>Eng yaxshi loyihalar – biz bilan!</h2>
+    </div>
+
+    <div class="container">
+        <div class="section" id="about">
+            <h2>Biz haqimizda</h2>
+            <p>Bizning kompaniya 2008 yildan beri qurilish sohasida faoliyat yuritib kelmoqda. Turar-joy binolari, tijorat obyektlari, yo‘l qurilishi va ta’mirlash ishlarida katta tajribaga egamiz. 500 dan ortiq muvaffaqiyatli loyiha, 200 dan ziyod professional xodim. Sifat kafolatlangan!</p>
+        </div>
+
+        <div class="section" id="contracts">
+            <h2>Bajarilgan asosiy kontraktlar</h2>
+            <table>
+                <tr>
+                    <th>Kontrakt №</th>
+                    <th>Loyiha nomi</th>
+                    <th>Buyurtmachi</th>
+                    <th>Tugallangan yili</th>
+                </tr>
+                <tr>
+                    <td>K-2023-045</td>
+                    <td>Chilonzor 25-qavatli turar-joy majmuasi</td>
+                    <td>Toshkent shahar hokimligi</td>
+                    <td>2025</td>
+                </tr>
+                <tr>
+                    <td>K-2024-112</td>
+                    <td>Samarqand xalqaro aeroporti terminali</td>
+                    <td>O'zbekiston havo yo'llari</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>K-2024-078</td>
+                    <td>Farg‘ona viloyati yo‘l ta'mirlash (120 km)</td>
+                    <td>Avtomobil yo'llari qo'mitasi</td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>K-2025-003</td>
+                    <td>Buxoro mehmonxona majmuasi</td>
+                    <td>Silk Road Tour Ltd</td>
+                    <td>2026 (rejada)</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section" id="gallery">
+            <h2>Bizning ishlarimiz</h2>
+            <div class="gallery">
+                <!-- O'zingizning rasmlaringiz manzilini qo'ying, hozircha misol uchun Unsplash'dagi qurilish rasmlari -->
+                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Bino qurilishi">
+                <img src="https://images.unsplash.com/photo-1625602812206-5ec545ca1231?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Ichki ishlar">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Jamoa">
+                <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Yo'l ishlari">
+                <img src="https://images.unsplash.com/photo-1624969862644-791f3dc98927?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Qurilish maydoni">
+                <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Office">
+            </div>
+            <p style="margin-top:10px; font-style:italic;">* Rasmlarni o'zingizning loyihalaringiz bilan almashtirishingiz kerak.</p>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Aloqa ma'lumotlari</h2>
+            <p><strong>📞 Telefon:</strong> +998 90 123 45 67</p>
+            <p><strong>📧 Email:</strong> info@uzbuilding.uz</p>
+            <p><strong>📍 Manzil:</strong> Toshkent shahri, Mirzo Ulug‘bek tumani, Mustaqillik ko‘chasi, 15-uy</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 O'zbek Qurilish. Barcha huquqlar himoyalangan.</p>
+    </footer>
+</body>
+</html>
